@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Personal Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+  <div class="logo">MyPortfolio</div>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <button id="themeBtn">🌙</button>
+</header>
+
+<section id="home" class="hero">
+  <img src="https://i.pravatar.cc/300" alt="Profile">
+  <h1>Your Name</h1>
+  <p>Frontend Developer | Beginner</p>
+  <a class="btn" href="#" download>Download Resume</a>
+</section>
+
+<section id="about" class="section fade">
+  <h2>About Me</h2>
+  <p>
+    I am a beginner frontend developer learning HTML, CSS, and JavaScript.
+    I build responsive websites and improve my skills through projects.
+  </p>
+</section>
+
+<section id="skills" class="section fade">
+  <h2>Skills</h2>
+  <div class="cards">
+    <div class="card">HTML</div>
+    <div class="card">CSS</div>
+    <div class="card">JavaScript</div>
+    <div class="card">Git & GitHub</div>
+  </div>
+</section>
+
+<section id="projects" class="section fade">
+  <h2>Projects</h2>
+  <div class="cards">
+    <div class="project-card">
+      <h3>MovieHub Website</h3>
+      <p>Movie browsing website with search and filters.</p>
+    </div>
+    <div class="project-card">
+      <h3>Portfolio Website</h3>
+      <p>Personal portfolio with modern UI.</p>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="section fade">
+  <h2>Contact</h2>
+  <form class="contact-form">
+    <input type="text" placeholder="Your Name" required>
+    <input type="email" placeholder="Your Email" required>
+    <textarea placeholder="Message"></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+
+<footer class="footer">
+  © 2026 Your Name | Built with ❤️
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
